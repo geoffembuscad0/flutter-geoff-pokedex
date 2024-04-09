@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_monsters/app/view/favorites_view.dart';
-import 'package:my_monsters/app/view/search_view.dart';
+import 'package:flutter_geoff_pokedex/app/view/favorites_view.dart';
+import 'package:flutter_geoff_pokedex/app/view/search_view.dart';
 
 import '../../constants/dimens.dart';
 import '../../constants/strings.dart';

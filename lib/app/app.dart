@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:my_monsters/app/view/home/home_page.dart';
+import 'package:flutter_geoff_pokedex/app/view/home/home_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

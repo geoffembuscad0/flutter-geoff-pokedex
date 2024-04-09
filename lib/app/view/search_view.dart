@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_monsters/app/model/pokemon_model.dart';
-import 'package:my_monsters/app/repository/pokemon_repository.dart';
-import 'package:my_monsters/app/view/components/pokemon_preview_item.dart';
+import 'package:flutter_geoff_pokedex/app/model/pokemon_model.dart';
+import 'package:flutter_geoff_pokedex/app/repository/pokemon_repository.dart';
+import 'package:flutter_geoff_pokedex/app/view/components/pokemon_preview_item.dart';
 
 import '../constants/dimens.dart';
 import '../constants/strings.dart';
