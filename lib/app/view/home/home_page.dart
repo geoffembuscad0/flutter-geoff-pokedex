@@ -13,12 +13,15 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var selectedIndex = 0;
-  var navigationColor = Colors.white70;
+  int selectedIndex = 0;
+  Color lightNavigationColor = Colors.white70;
+  Color darkNavigationColor = Colors.deepPurple;
 
   @override
   Widget build(BuildContext context) {
     Widget page;
+    Brightness systemBrightness = MediaQuery.of(context).platformBrightness;
+
     switch (selectedIndex) {
       case Dimens.optionSearchView:
         page = const SearchView();
@@ -37,7 +40,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           Expanded(
               child: ColoredBox(
-            color: navigationColor,
+            color: systemBrightness == Brightness.dark ? darkNavigationColor : lightNavigationColor,
             child: AnimatedSwitcher(
               duration:
                   const Duration(milliseconds: Dimens.durationMilliseconds),

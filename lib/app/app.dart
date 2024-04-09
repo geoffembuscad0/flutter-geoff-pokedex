@@ -7,15 +7,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Brightness systemBrightness = MediaQuery.of(context).platformBrightness;
+
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]);
 
     return MaterialApp(
-      title: 'My Monsters',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+      title: 'My Pokémon',
+      theme: systemBrightness == Brightness.dark ? 
+        ThemeData.dark(
+          useMaterial3: true
+        ) : 
+        ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan),
+          useMaterial3: true,
       ),
       home: const HomePage(),
     );
