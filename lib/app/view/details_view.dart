@@ -1,5 +1,5 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_geoff_pokedex/app/model/pokemon_model.dart';
 import 'package:flutter_geoff_pokedex/app/repository/pokemon_repository.dart';
 
