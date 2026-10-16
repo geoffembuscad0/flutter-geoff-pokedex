@@ -1,6 +1,6 @@
 {
-    "name": "my_monsters",
-    "short_name": "my_monsters",
+    "name": "flutter_geoff_pokedex",
+    "short_name": "flutter_geoff_pokedex",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

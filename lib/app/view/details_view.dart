@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:my_monsters/app/model/pokemon_model.dart';
-import 'package:my_monsters/app/repository/pokemon_repository.dart';
+import 'package:flutter_geoff_pokedex/app/model/pokemon_model.dart';
+import 'package:flutter_geoff_pokedex/app/repository/pokemon_repository.dart';
 
 import '../constants/dimens.dart';
 import '../constants/strings.dart';
@@ -89,7 +89,9 @@ class _DetailsViewState extends State<DetailsView> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  CachedNetworkImage(imageUrl: widget.imageBack),
+                  CachedNetworkImage(
+                    imageUrl: widget.imageFront,
+                  ),
                   Column(
                     children: [
                       Text(

@@ -1,4 +1,4 @@
-package com.enrojasv.my_monsters
+package com.enrojasv.flutter_geoff_pokedex
 
 import io.flutter.embedding.android.FlutterActivity
 

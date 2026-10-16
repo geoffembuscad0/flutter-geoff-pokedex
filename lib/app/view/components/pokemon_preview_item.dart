@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:my_monsters/app/constants/dimens.dart';
-import 'package:my_monsters/app/model/pokemon_model.dart';
-import 'package:my_monsters/app/view/details_view.dart';
+import 'package:flutter_geoff_pokedex/app/constants/dimens.dart';
+import 'package:flutter_geoff_pokedex/app/model/pokemon_model.dart';
+import 'package:flutter_geoff_pokedex/app/view/details_view.dart';
 
 import '../../constants/strings.dart';
 
